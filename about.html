@@ -25,96 +25,153 @@
             <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a href="./index.html" class="nav-link">HOME</a>
-                    <a href="./about.html" class="nav-link  active">ABOUT US</a>
                     <a href="./portofolio.html" class="nav-link">PORTOFOLIO</a>
                     <a href="./blog.html" class="nav-link">BLOG</a>
+                    <a href="./about.html" class="nav-link active bg-primary">ABOUT US</a>
                     <a href="./contact.html" class="nav-link">CONTACT US</a>
+                    <a href="./todos.html" class="nav-link">TODOS</a>
                 </div>
             </div>
         </nav>
     </header>
 
-    <div class="container border bg-white mt-3 mb-3 p-3 rounded shadow">
-        <div id="alertSuccessPlaceholder" class="mt-2"></div>
-
-        <div class="row">
-            <div class="col-md-3 mt-2" style="text-align: center;">
-                <img class="rounded-circle" src="https://picsum.photos/150/150" alt="profile pic">
-            </div>
-            <div class="col-md-4 mt-2">
-                <h2 id="namaBio">
-                    Muhammad Alif Putra Dafi <br>
-                </h2>
-                <h5 id="roleBio" class="text-muted mb-3">Associate Software Engineer</h5>
-                
-                <button id="btnEdit" type="button" class="btn btn-primary btn-sm mb-3">Edit</button>
-                <button type="button" class="btn btn-outline-success btn-sm mb-3">Resume</button>             
-            </div>
-            <div class="col-md-5 mt-2">
-                <table class="table-primary table-borderless" style="border-collapse: separate; border-spacing: 5px;">
-                    <tr>
-                        <th style="padding-right: 40px;">Availability</th>
-                        <td id="availabilityBio">Full Time</td>
-                    </tr>
-                    <tr>
-                        <th style="padding-right: 40px;">Usia</th>
-                        <td id="usiaBio">22</td>
-                    </tr>
-                    <tr>
-                        <th style="padding-right: 40px;">Lokasi</th>
-                        <td id="lokasiBio">Tangerang</td>
-                    </tr>
-                    <tr>
-                        <th style="padding-right: 40px;">Pengalaman</th>
-                        <td id="pengalamanBio">1 Tahun</td>
-                    </tr>
-                    <tr>
-                        <th style="padding-right: 40px;">Email</th>
-                        <td id="emailBio" class="text-break">muhammad.alif@bithealth.co.id</td>
-                    </tr>
-                </table>
-            </div> 
+    <div>
+        <div class="position-relative">
+            <h1 class="position-absolute">ABOUT US</h1>
+            <img class="w-100" src="./resources/images/Titel_Background.png" alt="">
         </div>
     </div>
 
-    <div id="containerEditForm" class="container border bg-white mb-3 p-3 rounded shadow">
+    <div class="container">
         <div class="row">
+            <div class="col-3">
+                <img src="https://picsum.photos/200/200" alt="">
+            </div>
+            <div class="col-9">
+                <div class="row">
+                    <h1>WELCOME TO OUR TEAM</h1>
+                </div>
+                <div class="row">
+                    <h5>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        Ut wisi enim ad minim veniam</h5>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                            Ut wisi enim ad minim veniam
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                            Ut wisi enim ad minim veniam
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2 style="text-align: center;">OUR SKILLS</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Ut wisi enim ad minim veniam
+            </p>
+
+            <div class="col-6">
+                <div class="progress mb-2" style="height: 25px;">
+                    <div class="progress-bar w-75">Android</div>
+                </div>
+                <div class="progress mb-2" style="height: 25px;">
+                    <div class="progress-bar w-75">Android</div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="progress mb-2" style="height: 25px;">
+                    <div class="progress-bar w-75">Android</div>
+                </div>
+                <div class="progress mb-2" style="height: 25px;">
+                    <div class="progress-bar w-75">Android</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2 style="text-align: center;">OUR TEAMS</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                Ut wisi enim ad minim veniam
+            </p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 my-3">
             <div class="col">
-                <form id="editForm" action="" style="width: inherit;">
-                    <div class="mb-3">
-                        <label for="namaInput" class="form-label">Nama</label>
-                        <input type="text" class="form-control" id="namaInput" placeholder="Masukkan Nama Anda">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/15/15" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="roleInput" class="form-label">Role</label>
-                        <input type="text" class="form-control" id="roleInput">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/15/15" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="availabilityInput" class="form-label">Availability</label>
-                        <input type="text" class="form-control" id="availabilityInput">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/15/15" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="usiaInput" class="form-label">Usia</label>
-                        <input type="text" class="form-control" id="usiaInput">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/15/15" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="lokasiInput" class="form-label">Lokasi</label>
-                        <input type="text" class="form-control" id="lokasiInput">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/15/15" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="pengalamanInput" class="form-label">Years Experience</label>
-                        <input type="text" class="form-control" id="pengalamanInput">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://picsum.photos/15/15" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
-                    <div class="mb-3">
-                        <label for="emailInput" class="form-label">Email</label>
-                        <input type="text" class="form-control" id="emailInput">
-                    </div>
-    
-                    <button type="submit" class="btn btn-success" style="width: inherit;">SUBMIT</button>
-                </form>
+                </div>
             </div>
         </div>
     </div>
+
+    
 
     <footer class="text-center text-white" style="background-color:#4f4f4f;">
         <div class="container p-4">
@@ -140,7 +197,6 @@
         </div>
     </footer>
 
-    <script src="./js/about.js"></script>
     <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
